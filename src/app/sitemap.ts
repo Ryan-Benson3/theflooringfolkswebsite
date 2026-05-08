@@ -46,5 +46,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...servicePages, ...cityPages];
+  const blogSlugs = [
+    "lvp-flooring-cost-florence-al-2026",
+    "hardwood-vs-lvp-shoals-area",
+    "best-flooring-alabama-humidity",
+    "how-to-choose-flooring-installer-florence-al",
+    "carpet-vs-hardwood-vs-tile-florence-al",
+  ];
+
+  const blogPages: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
+    ...blogSlugs.map((slug) => ({
+      url: `${baseUrl}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  return [...staticPages, ...servicePages, ...cityPages, ...blogPages];
 }

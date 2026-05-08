@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services/lvp-flooring" },
   { label: "Areas", href: "/areas/florence-al" },
+  { label: "Blog", href: "/blog" },
   { label: "Gallery", href: "/#gallery" },
   { label: "Contact", href: "/#contact" },
 ];
