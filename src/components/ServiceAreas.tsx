@@ -1,12 +1,13 @@
+import Link from "next/link";
 import { MapPin } from "lucide-react";
 
 const areas = [
-  "Florence, AL",
-  "Muscle Shoals, AL",
-  "Sheffield, AL",
-  "Tuscumbia, AL",
-  "Killen, AL",
-  "Russellville, AL",
+  { name: "Florence, AL", href: "/areas/florence-al" },
+  { name: "Muscle Shoals, AL", href: "/areas/muscle-shoals-al" },
+  { name: "Sheffield, AL", href: "/areas/sheffield-al" },
+  { name: "Tuscumbia, AL", href: "/areas/tuscumbia-al" },
+  { name: "Killen, AL", href: "/areas/killen-al" },
+  { name: "Rogersville, AL", href: "/areas/rogersville-al" },
 ];
 
 export default function ServiceAreas() {
@@ -31,13 +32,16 @@ export default function ServiceAreas() {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 max-w-4xl mx-auto">
           {areas.map((area) => (
-            <div
-              key={area}
+            <Link
+              key={area.href}
+              href={area.href}
               className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-5 text-center hover:bg-accent/10 hover:border-accent/30 transition-all group"
             >
               <MapPin className="w-6 h-6 text-accent mx-auto mb-2 group-hover:scale-110 transition-transform" />
-              <span className="text-white font-medium text-sm">{area}</span>
-            </div>
+              <span className="text-white font-medium text-sm">
+                {area.name}
+              </span>
+            </Link>
           ))}
         </div>
 

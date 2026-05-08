@@ -1,22 +1,31 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const quickLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services/lvp-flooring" },
+  { label: "Areas", href: "/areas/florence-al" },
+  { label: "Gallery", href: "/#gallery" },
+  { label: "Contact", href: "/#contact" },
 ];
 
-const serviceAreas = [
-  "Florence, AL",
-  "Muscle Shoals, AL",
-  "Sheffield, AL",
-  "Tuscumbia, AL",
-  "Killen, AL",
-  "Russellville, AL",
+const serviceLinks = [
+  { label: "LVP Installation", href: "/services/lvp-flooring" },
+  { label: "Hardwood", href: "/services/hardwood-flooring" },
+  { label: "Tile & Stone", href: "/services/tile-installation" },
+  { label: "Laminate", href: "/services/laminate-flooring" },
+  { label: "Carpet", href: "/services/carpet-installation" },
+  { label: "Subfloor Prep", href: "/services/subfloor-preparation" },
+];
+
+const serviceAreaLinks = [
+  { label: "Florence, AL", href: "/areas/florence-al" },
+  { label: "Muscle Shoals, AL", href: "/areas/muscle-shoals-al" },
+  { label: "Sheffield, AL", href: "/areas/sheffield-al" },
+  { label: "Tuscumbia, AL", href: "/areas/tuscumbia-al" },
+  { label: "Killen, AL", href: "/areas/killen-al" },
+  { label: "Russellville, AL", href: "/areas/rogersville-al" },
 ];
 
 export default function Footer() {
@@ -61,12 +70,12 @@ export default function Footer() {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-white/50 hover:text-accent transition-colors text-sm"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -76,11 +85,16 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Our Services</h4>
             <ul className="space-y-2">
-              {["LVP Installation", "Hardwood", "Laminate", "Tile & Stone", "Carpet", "Subfloor Prep"].map(
-                (s) => (
-                  <li key={s} className="text-white/50 text-sm">{s}</li>
-                )
-              )}
+              {serviceLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white/50 hover:text-accent transition-colors text-sm"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -88,8 +102,15 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Areas Served</h4>
             <ul className="space-y-2">
-              {serviceAreas.map((area) => (
-                <li key={area} className="text-white/50 text-sm">{area}</li>
+              {serviceAreaLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white/50 hover:text-accent transition-colors text-sm"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>
