@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+
+// Replace with your actual GA4 Measurement ID from analytics.google.com
+const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -58,6 +63,11 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
     },
+  },
+  verification: {
+    // Replace with your actual Google Search Console verification code
+    // See GSC-SETUP.md for instructions
+    google: "YOUR_GOOGLE_VERIFICATION_CODE",
   },
 };
 
@@ -138,7 +148,12 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        <Suspense fallback={null}>
+          <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
+        </Suspense>
+        {children}
+      </body>
     </html>
   );
 }
