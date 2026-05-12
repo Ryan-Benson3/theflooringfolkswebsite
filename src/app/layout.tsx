@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | The Flooring Folks",
   },
   description:
-    "Expert flooring installation serving Florence, AL & The Shoals area. LVP, hardwood, laminate, tile, carpet & more. 17+ years experience. Licensed & insured. Call (262) 327-3989!",
+    "Expert flooring installation serving Florence, AL & The Shoals area. LVP, hardwood, laminate, tile, carpet & more. 17+ years experience. Licensed & insured. Call (256) 415-7610!",
   keywords: [
     "flooring installation Florence AL",
     "flooring contractor Florence Alabama",
@@ -77,11 +77,12 @@ const localBusinessSchema = {
   name: "The Flooring Folks",
   image:
     "https://theflooringfolks.com/images/assets/Logo_The Flooring Folks.PNG",
-  telephone: "+12623273989",
+  telephone: "+12564157610",
   email: "theflooringfolks@gmail.com",
   url: "https://theflooringfolks.com",
   address: {
     "@type": "PostalAddress",
+    streetAddress: "100 Pine Brook Drive",
     addressLocality: "Florence",
     addressRegion: "AL",
     addressCountry: "US",
@@ -113,8 +114,8 @@ const localBusinessSchema = {
   },
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "5.0",
-    reviewCount: "50",
+    ratingValue: "4.9",
+    reviewCount: "52",
     bestRating: "5",
   },
   hasOfferCatalog: {

@@ -250,11 +250,11 @@ export default function Navbar() {
             </Link>
 
             <a
-              href="tel:+12623273989"
+              href="tel:+12564157610"
               className="border border-white/20 text-white font-semibold px-6 py-3 rounded-lg text-center mt-1 flex items-center justify-center gap-2"
             >
               <Phone size={16} />
-              (262) 327-3989
+              (256) 415-7610
             </a>
           </div>
         </div>

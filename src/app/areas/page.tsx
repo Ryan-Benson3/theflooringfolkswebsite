@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title:
     "Service Areas | Flooring Installation — Florence, AL & The Shoals | The Flooring Folks",
   description:
-    "The Flooring Folks serves Florence, Muscle Shoals, Sheffield, Tuscumbia, Killen, Rogersville & surrounding areas. Professional flooring installation with 17+ years experience. Call (262) 327-3989!",
+    "The Flooring Folks serves Florence, Muscle Shoals, Sheffield, Tuscumbia, Killen, Rogersville & surrounding areas. Professional flooring installation with 17+ years experience. Call (256) 415-7610!",
   alternates: {
     canonical: "https://theflooringfolks.com/areas",
   },
@@ -115,11 +115,11 @@ export default function AreasPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:2623273989"
+                href="tel:2564157610"
                 className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-primary font-bold px-8 py-4 rounded-xl text-lg transition-colors"
               >
                 <Phone size={20} />
-                (262) 327-3989
+                (256) 415-7610
               </a>
               <a
                 href="/#contact"

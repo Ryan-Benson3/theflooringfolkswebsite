@@ -13,7 +13,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "lvp-flooring-cost-florence-al-2026",
     title: "How Much Does LVP Flooring Cost in Florence AL? (2026 Guide)",
-    metaDescription: "LVP flooring costs $2.50-$7/sq ft in Florence AL. Installed price: $4-$12/sq ft. Get a free estimate from The Flooring Folks. Call (262) 327-3989.",
+    metaDescription: "LVP flooring costs $2.50-$7/sq ft in Florence AL. Installed price: $4-$12/sq ft. Get a free estimate from The Flooring Folks. Call (256) 415-7610.",
     date: "May 8, 2026",
     readingTime: "8 min read",
     excerpt: "Wondering what LVP flooring costs in the Shoals area? Here's a complete breakdown of materials, labor, and what to expect for your Florence AL home.",
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>How to Get an Accurate Estimate</h2>
 <p>The best way to know your exact cost is to get a professional measurement and estimate. At The Flooring Folks, we provide free in-home estimates throughout the Florence and Shoals area. We'll measure your space, assess your subfloor, and give you an exact price — no surprises.</p>
-<p><strong>Call us at (262) 327-3989 or <a href="/#contact">request a free estimate online</a>.</strong></p>
+<p><strong>Call us at (256) 415-7610 or <a href="/#contact">request a free estimate online</a>.</strong></p>
 `,
     faqs: [
       { question: "How long does LVP flooring last in Florence AL?", answer: "With proper installation, quality LVP lasts 15-25 years. The 20mil+ wear layer options can handle heavy foot traffic and pets without showing wear." },
@@ -115,7 +115,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The Bottom Line for Shoals Area Homes</h2>
 <p>For most Florence area homeowners, LVP is the smarter choice in 2026. It handles our humidity, looks great, costs less, and lasts 15-25 years with zero maintenance headaches. Hardwood is still beautiful — but it needs more care in our climate.</p>
-<p><strong>Not sure which is right for your home? Call us at (262) 327-3989 for a free consultation. We'll bring samples of both to your home so you can see and feel the difference.</strong></p>
+<p><strong>Not sure which is right for your home? Call us at (256) 415-7610 for a free consultation. We'll bring samples of both to your home so you can see and feel the difference.</strong></p>
 `,
     faqs: [
       { question: "Does LVP look as good as real hardwood?", answer: "Modern LVP is remarkably realistic. High-end options with embossed-in-register texture are nearly indistinguishable from real wood to the touch. Most visitors won't know the difference." },
@@ -180,7 +180,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Entryways:</strong> Tile or LVP</li>
 </ul>
 
-<p><strong>Need help choosing the right flooring for your Florence area home? Call The Flooring Folks at (262) 327-3989 for a free in-home consultation. We'll bring samples and help you pick the perfect option for each room.</strong></p>
+<p><strong>Need help choosing the right flooring for your Florence area home? Call The Flooring Folks at (256) 415-7610 for a free in-home consultation. We'll bring samples and help you pick the perfect option for each room.</strong></p>
 `,
     faqs: [
       { question: "What humidity level is too high for hardwood floors?", answer: "Above 60% relative humidity, hardwood starts to expand and can cup or buckle. In Alabama, summer humidity regularly exceeds 70%, making climate control essential for hardwood installations." },
@@ -252,7 +252,7 @@ export const blogPosts: BlogPost[] = [
 <li>How do you handle subfloor issues if you find them?</li>
 </ul>
 
-<p><strong>Looking for a flooring installer in Florence AL you can trust? The Flooring Folks has been serving the Shoals area for 17+ years. Licensed, insured, and locally owned. Call (262) 327-3989 for a free estimate.</strong></p>
+<p><strong>Looking for a flooring installer in Florence AL you can trust? The Flooring Folks has been serving the Shoals area for 17+ years. Licensed, insured, and locally owned. Call (256) 415-7610 for a free estimate.</strong></p>
 `,
     faqs: [
       { question: "How much does flooring installation cost in Florence AL?", answer: "It depends on the flooring type. LVP runs $4-$12/sq ft installed, hardwood $8-$15/sq ft, and tile $7-$15/sq ft. We provide free written estimates with exact pricing for your project." },
@@ -315,7 +315,7 @@ export const blogPosts: BlogPost[] = [
 <h2>What Most Florence Homeowners Choose in 2026</h2>
 <p>In our experience, the trend in the Shoals area is clear: <strong>LVP in main living areas, tile in wet areas, carpet in bedrooms.</strong> This combination gives you the best of all worlds — waterproof where you need it, comfortable where you want it, and beautiful everywhere.</p>
 
-<p><strong>Want to see samples of all three in your home? Call The Flooring Folks at (262) 327-3989. We'll bring samples to your Florence area home and help you decide.</strong></p>
+<p><strong>Want to see samples of all three in your home? Call The Flooring Folks at (256) 415-7610. We'll bring samples to your Florence area home and help you decide.</strong></p>
 `,
     faqs: [
       { question: "What's the most popular flooring in Florence AL right now?", answer: "LVP (Luxury Vinyl Plank) is the most popular flooring we install in the Florence and Shoals area. It's waterproof, durable, affordable, and looks like real hardwood." },

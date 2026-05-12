@@ -14,7 +14,7 @@ export const cities: CityData[] = [
     name: "Florence",
     fullName: "Florence, AL",
     metaDescription:
-      "Professional flooring installation in Florence, AL. LVP, hardwood, tile, laminate & carpet from The Flooring Folks. 17+ years experience. Call (262) 327-3989!",
+      "Professional flooring installation in Florence, AL. LVP, hardwood, tile, laminate & carpet from The Flooring Folks. 17+ years experience. Call (256) 415-7610!",
     content: `The Flooring Folks is proud to be Florence, Alabama's trusted flooring installation company. Based right here in the Shoals, we've been serving Florence homeowners and businesses with expert flooring installation for over 17 years. From the historic districts near downtown to the growing neighborhoods along Cox Creek Parkway, we've installed beautiful floors in homes and commercial properties throughout the entire Florence community.
 
 Florence is the cultural and economic hub of The Shoals region, and we understand the unique character of homes here — from the charming historic residences near the University of North Alabama to the newer developments in west Florence. Each home presents unique flooring challenges and opportunities, and our experienced team knows how to deliver exceptional results regardless of the property's age or style.

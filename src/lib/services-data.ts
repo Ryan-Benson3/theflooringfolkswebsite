@@ -18,6 +18,7 @@ export interface ServiceData {
   icon: LucideIcon;
   metaDescription: string;
   heroDescription: string;
+  directAnswer?: string;
   content: string;
   benefits: string[];
   processSteps: { title: string; description: string }[];
@@ -34,6 +35,7 @@ export const services: ServiceData[] = [
       "Professional LVP flooring installation in Florence, AL. Waterproof, durable luxury vinyl plank from The Flooring Folks. 17+ years experience. Free estimates!",
     heroDescription:
       "Durable, waterproof, and beautiful — the most popular flooring choice today.",
+    directAnswer: "Luxury vinyl plank (LVP) flooring installation in Florence, AL by The Flooring Folks. LVP is the most popular flooring choice today — waterproof, durable, and beautiful. Professional installation at $1.75 per square foot with 17+ years of craftsmanship.",
     content: `Luxury vinyl plank flooring has become the most popular flooring choice for homeowners in Florence, AL and throughout The Shoals area — and for good reason. LVP delivers the stunning look of natural hardwood with superior durability, complete waterproof protection, and a price point that makes sense for any budget.
 
 At The Flooring Folks, we've installed thousands of LVP floors across northwest Alabama. Our 17+ years of experience means we know how to handle every subfloor condition, room layout, and product specification to deliver a flawless installation that will look beautiful for decades.
@@ -102,7 +104,7 @@ Our LVP installation process includes thorough subfloor preparation, precise mea
       {
         question: "What does LVP installation cost?",
         answer:
-          "LVP installation costs vary based on the product selected, room size, and subfloor condition. We provide free, detailed estimates with no hidden fees. Contact us at (262) 327-3989 for your quote.",
+          "LVP installation costs vary based on the product selected, room size, and subfloor condition. We provide free, detailed estimates with no hidden fees. Contact us at (256) 415-7610 for your quote.",
       },
     ],
   },
@@ -115,6 +117,7 @@ Our LVP installation process includes thorough subfloor preparation, precise mea
       "Expert hardwood flooring installation in Florence, AL. Solid and engineered hardwood from The Flooring Folks. Timeless beauty, lasting value. Call for free estimate!",
     heroDescription:
       "Solid and engineered hardwood installation. Timeless beauty that adds lasting value to your home.",
+    directAnswer: "Hardwood flooring installation in Florence, AL by The Flooring Folks. Solid and engineered hardwood adds timeless beauty and lasting value. Professional installation at $3.00 per square foot. 17+ years experience, 5-star rating.",
     content: `Nothing matches the timeless beauty and lasting value of genuine hardwood flooring. At The Flooring Folks, we specialize in both solid and engineered hardwood installation, bringing over 17 years of expert craftsmanship to every project in Florence, AL and the surrounding Shoals communities.
 
 Hardwood flooring is one of the most sought-after features for homebuyers, consistently ranking as a top preference in real estate surveys. Whether you're renovating your forever home or preparing a property for sale, professionally installed hardwood floors add significant value and curb appeal that other flooring types simply can't match.
@@ -178,7 +181,7 @@ Our installation process accounts for proper acclimation, moisture testing, subf
       {
         question: "How much does hardwood installation cost?",
         answer:
-          "Hardwood installation costs vary based on wood species, room size, and subfloor requirements. We provide transparent, detailed estimates with no hidden fees. Call (262) 327-3989 for your free quote.",
+          "Hardwood installation costs vary based on wood species, room size, and subfloor requirements. We provide transparent, detailed estimates with no hidden fees. Call (256) 415-7610 for your free quote.",
       },
     ],
   },
@@ -191,6 +194,7 @@ Our installation process accounts for proper acclimation, moisture testing, subf
       "Professional tile and stone installation in Florence, AL. Precision tile work for kitchens, bathrooms, and more from The Flooring Folks. Free estimates!",
     heroDescription:
       "Precision tile work including LVT with grout. Perfect for kitchens, bathrooms, and accent walls.",
+    directAnswer: "Tile and stone installation in Florence, AL by The Flooring Folks. Precision tile work including LVT with grout for kitchens, bathrooms, and accent walls. Professional installation at $2.75 per square foot.",
     content: `Professional tile and stone installation transforms any space with elegance, durability, and easy maintenance. The Flooring Folks provides expert tile installation services throughout Florence, AL and The Shoals area, with 17+ years of experience working with ceramic, porcelain, natural stone, and luxury vinyl tile with grout.
 
 Tile flooring is one of the most durable and versatile flooring options available. It's naturally waterproof, incredibly easy to clean, and available in an endless array of colors, patterns, sizes, and textures. From classic subway tile to large-format porcelain planks that mimic hardwood, the design possibilities are virtually limitless.
@@ -264,9 +268,10 @@ We also specialize in LVT (luxury vinyl tile) with grout, which offers the stunn
     shortTitle: "Laminate Flooring",
     icon: Grid3x3,
     metaDescription:
-      "Affordable laminate flooring installation in Florence, AL. Expert laminate install and removal from The Flooring Folks. Call (262) 327-3989 for free estimate!",
+      "Affordable laminate flooring installation in Florence, AL. Expert laminate install and removal from The Flooring Folks. Call (256) 415-7610 for free estimate!",
     heroDescription:
       "Expert laminate installation and removal. Affordable style that stands up to daily wear and tear.",
+    directAnswer: "Laminate flooring installation in Florence, AL by The Flooring Folks. Affordable style that stands up to daily wear and tear. Professional installation at $1.75 per square foot.",
     content: `Laminate flooring offers an unbeatable combination of style, durability, and affordability. The Flooring Folks provides professional laminate flooring installation throughout Florence, AL and The Shoals area, helping homeowners achieve the look of hardwood or stone at a fraction of the cost.
 
 Today's laminate flooring is a far cry from the products of decades past. Modern laminate features high-definition photographic layers that beautifully replicate the look of real wood, stone, or tile with remarkable accuracy. Advanced embossing techniques add texture that matches the visual grain patterns, creating a floor that's nearly indistinguishable from the real thing.
@@ -343,6 +348,7 @@ While laminate is not waterproof like LVP, many newer products feature water-res
       "Professional carpet installation in Florence, AL. Expert carpet removal and installation from The Flooring Folks. Comfort and warmth for your home. Free estimate!",
     heroDescription:
       "Professional carpet removal and installation. Comfort and warmth for bedrooms and living spaces.",
+    directAnswer: "Carpet and carpet tile installation in Florence, AL by The Flooring Folks. Professional carpet removal and installation for bedrooms and living spaces. Comfort and warmth underfoot.",
     content: `Carpet remains one of the most popular flooring choices for bedrooms, living rooms, and family spaces throughout Florence, AL. The Flooring Folks provides expert carpet and carpet tile installation with over 17 years of experience, ensuring a plush, professional finish that transforms your space into a cozy retreat.
 
 Modern carpet comes in an incredible variety of styles, textures, colors, and fiber types. From plush cut pile that feels luxurious underfoot to durable loop pile that stands up to heavy traffic, there's a perfect carpet for every room and lifestyle. We help you navigate the options to find the ideal balance of comfort, style, and durability.
@@ -419,6 +425,7 @@ Our carpet installation process includes careful measurement, old carpet removal
       "Commercial and residential sheet vinyl and VCT installation in Florence, AL. Seamless, professional results from The Flooring Folks. Free estimate!",
     heroDescription:
       "Commercial and residential sheet vinyl and VCT installation. Clean, seamless, and professional.",
+    directAnswer: "Sheet vinyl and VCT flooring installation in Florence, AL by The Flooring Folks. Commercial and residential installation at $1.25 per square foot. Clean, seamless, and professional.",
     content: `Sheet vinyl and vinyl composition tile (VCT) offer practical, affordable flooring solutions for both residential and commercial properties throughout Florence, AL. The Flooring Folks provides expert installation of sheet vinyl and VCT with the precision and attention to detail that 17+ years of experience brings.
 
 Sheet vinyl is an excellent choice for areas that need seamless, waterproof flooring. Unlike individual tiles or planks, sheet vinyl comes in large rolls that create a continuous surface with minimal or no seams. This makes it ideal for bathrooms, kitchens, laundry rooms, and medical facilities where moisture resistance and hygiene are priorities.
@@ -495,6 +502,7 @@ Both sheet vinyl and VCT require skilled installation for the best results. Shee
       "Expert subfloor preparation and repair in Florence, AL. Skimcoat, subfloor install, and leveling from The Flooring Folks. A solid foundation for beautiful floors!",
     heroDescription:
       "Skimcoat, subfloor install, and repair. A great floor starts with a solid foundation.",
+    directAnswer: "Subfloor preparation in Florence, AL by The Flooring Folks. Skimcoat, subfloor install, and repair. A great floor starts with a solid foundation. $1.00-$2.00 per square foot.",
     content: `Every beautiful floor starts with a properly prepared subfloor. The Flooring Folks provides comprehensive subfloor preparation and repair services throughout Florence, AL and The Shoals area, ensuring your new flooring has the perfect foundation for long-lasting performance and beauty.
 
 Subfloor preparation is the most critical — and most overlooked — step in any flooring installation. An uneven, damaged, or improperly prepared subfloor can cause squeaking, premature wear, visible imperfections, and even complete flooring failure. That's why we take subfloor preparation as seriously as the flooring installation itself.
@@ -571,6 +579,7 @@ Proper subfloor preparation is especially critical for luxury vinyl plank and ti
       "Professional baseboard and trim installation in Florence, AL. Shoe moulding, quarter round, and cove base from The Flooring Folks. The perfect finishing touch!",
     heroDescription:
       "Shoe moulding, quarter round, and cove base installation. The finishing touch that makes all the difference.",
+    directAnswer: "Baseboard and trim installation in Florence, AL by The Flooring Folks. Shoe moulding, quarter round, and cove base. The finishing touch that makes all the difference. $1.00 per linear foot.",
     content: `The right baseboard and trim work transforms a good flooring installation into a truly professional result. The Flooring Folks provides expert baseboard, shoe moulding, quarter round, and cove base installation services throughout Florence, AL and The Shoals area, adding the finishing touch that makes all the difference.
 
 Baseboard and trim serve both functional and aesthetic purposes. They cover the expansion gap required between your flooring and the wall, protect walls from scuffs and damage, and create a clean visual transition between your floor and wall surfaces. The right trim elevates the entire look of a room.

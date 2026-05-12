@@ -41,11 +41,11 @@ export default function Hero() {
               Get Your Free Estimate
             </a>
             <a
-              href="tel:2623273989"
+              href="tel:2564157610"
               className="border-2 border-white/30 hover:border-accent text-white hover:text-accent font-semibold px-8 py-4 rounded-xl text-lg transition-all inline-flex items-center justify-center gap-2"
             >
               <Phone size={20} />
-              (262) 327-3989
+              (256) 415-7610
             </a>
           </div>
 

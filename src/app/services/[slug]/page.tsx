@@ -58,10 +58,11 @@ export default async function ServicePage({ params }: Props) {
     "@type": "LocalBusiness",
     name: "The Flooring Folks",
     image: "https://theflooringfolks.com/images/assets/Logo_The Flooring Folks.PNG",
-    telephone: "+12623273989",
+    telephone: "+12564157610",
     email: "theflooringfolks@gmail.com",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "100 Pine Brook Drive",
       addressLocality: "Florence",
       addressRegion: "AL",
       addressCountry: "US",
@@ -81,8 +82,8 @@ export default async function ServicePage({ params }: Props) {
     ],
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "5.0",
-      reviewCount: "50",
+      ratingValue: "4.9",
+      reviewCount: "52",
     },
     url: "https://theflooringfolks.com",
   };
@@ -95,9 +96,10 @@ export default async function ServicePage({ params }: Props) {
     provider: {
       "@type": "LocalBusiness",
       name: "The Flooring Folks",
-      telephone: "+12623273989",
+      telephone: "+125****7610",
       address: {
         "@type": "PostalAddress",
+        streetAddress: "100 Pine Brook Drive",
         addressLocality: "Florence",
         addressRegion: "AL",
         addressCountry: "US",
@@ -114,6 +116,19 @@ export default async function ServicePage({ params }: Props) {
     url: `https://theflooringfolks.com/services/${slug}`,
   };
 
+  const faqSchema =
+    service.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: service.faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.question,
+            acceptedAnswer: { "@type": "Answer", text: faq.answer },
+          })),
+        }
+      : null;
+
   return (
     <>
       <script
@@ -128,6 +143,14 @@ export default async function ServicePage({ params }: Props) {
           __html: JSON.stringify(serviceSchema),
         }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqSchema),
+          }}
+        />
+      )}
 
       <Navbar />
 
@@ -166,15 +189,26 @@ export default async function ServicePage({ params }: Props) {
               Get Free Estimate
             </Link>
             <a
-              href="tel:2623273989"
+              href="tel:2564157610"
               className="border-2 border-white/30 hover:border-accent text-white hover:text-accent font-semibold px-8 py-4 rounded-xl text-lg transition-all inline-flex items-center justify-center gap-2"
             >
               <Phone size={20} />
-              (262) 327-3989
+              (256) 415-7610
             </a>
           </div>
         </div>
       </section>
+
+      {/* Direct Answer (AI Overview optimization) */}
+      {service.directAnswer && (
+        <section className="py-8 bg-accent/5 border-b border-accent/10">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p className="text-lg text-primary leading-relaxed font-medium">
+              {service.directAnswer}
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Main Content */}
       <section className="py-16 lg:py-24 bg-warm-white">
@@ -281,11 +315,11 @@ export default async function ServicePage({ params }: Props) {
                 <ArrowRight size={20} />
               </Link>
               <a
-                href="tel:2623273989"
+                href="tel:2564157610"
                 className="border-2 border-white/30 hover:border-accent text-white hover:text-accent font-semibold px-8 py-4 rounded-xl text-lg transition-all inline-flex items-center justify-center gap-2"
               >
                 <Phone size={20} />
-                (262) 327-3989
+                (256) 415-7610
               </a>
             </div>
           </div>

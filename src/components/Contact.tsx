@@ -81,7 +81,7 @@ export default function Contact() {
                     name="phone"
                     required
                     className="w-full px-4 py-3 rounded-lg border border-charcoal/10 bg-white text-charcoal focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all"
-                    placeholder="(262) 327-3989"
+                    placeholder="(256) 415-7610"
                   />
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default function Contact() {
 
               {status === "error" && (
                 <p className="text-red-600 text-center text-sm">
-                  Something went wrong. Please try again or call us directly at (262) 327-3989.
+                  Something went wrong. Please try again or call us directly at (256) 415-7610.
                 </p>
               )}
             </form>

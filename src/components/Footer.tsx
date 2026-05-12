@@ -52,14 +52,14 @@ export default function Footer() {
               17+ years of quality craftsmanship.
             </p>
             <div className="space-y-2">
-              <a href="tel:2623273989" className="flex items-center gap-2 text-white/60 hover:text-accent transition-colors text-sm">
-                <Phone size={14} /> (262) 327-3989
+              <a href="tel:2564157610" className="flex items-center gap-2 text-white/60 hover:text-accent transition-colors text-sm">
+                <Phone size={14} /> (256) 415-7610
               </a>
               <a href="mailto:theflooringfolks@gmail.com" className="flex items-center gap-2 text-white/60 hover:text-accent transition-colors text-sm">
                 <Mail size={14} /> theflooringfolks@gmail.com
               </a>
               <div className="flex items-center gap-2 text-white/60 text-sm">
-                <MapPin size={14} /> Florence, AL
+                <MapPin size={14} /> 100 Pine Brook Drive, Florence, AL
               </div>
             </div>
           </div>

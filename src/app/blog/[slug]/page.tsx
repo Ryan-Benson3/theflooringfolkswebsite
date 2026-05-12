@@ -133,10 +133,10 @@ export default async function BlogPost({
               Muscle Shoals, Sheffield, Tuscumbia, and the entire Shoals area.
             </p>
             <a
-              href="tel:2623273989"
+              href="tel:2564157610"
               className="inline-flex items-center gap-2 bg-accent text-white px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition-colors"
             >
-              <Phone size={18} /> (262) 327-3989
+              <Phone size={18} /> (256) 415-7610
             </a>
           </section>
         </article>

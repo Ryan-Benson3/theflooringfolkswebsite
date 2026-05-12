@@ -71,7 +71,7 @@ export default async function CityPage({ params }: Props) {
     name: "The Flooring Folks",
     image:
       "https://theflooringfolks.com/images/assets/Logo_The Flooring Folks.PNG",
-    telephone: "+12623273989",
+    telephone: "+12564157610",
     email: "theflooringfolks@gmail.com",
     address: {
       "@type": "PostalAddress",
@@ -133,11 +133,11 @@ export default async function CityPage({ params }: Props) {
               Get Free Estimate
             </Link>
             <a
-              href="tel:2623273989"
+              href="tel:2564157610"
               className="border-2 border-white/30 hover:border-accent text-white hover:text-accent font-semibold px-8 py-4 rounded-xl text-lg transition-all inline-flex items-center justify-center gap-2"
             >
               <Phone size={20} />
-              (262) 327-3989
+              (256) 415-7610
             </a>
           </div>
         </div>
@@ -253,11 +253,11 @@ export default async function CityPage({ params }: Props) {
                 <ArrowRight size={20} />
               </Link>
               <a
-                href="tel:2623273989"
+                href="tel:2564157610"
                 className="border-2 border-white/30 hover:border-accent text-white hover:text-accent font-semibold px-8 py-4 rounded-xl text-lg transition-all inline-flex items-center justify-center gap-2"
               >
                 <Phone size={20} />
-                (262) 327-3989
+                (256) 415-7610
               </a>
             </div>
           </div>
